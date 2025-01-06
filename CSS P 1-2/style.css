@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+    font-family: Georgia,serif;
+}
+h1{
+    font-family: League spartan,sans-serif;
+    text-transform: uppercase;
+    color: #ffa511;
+    text-decoration:rgb(0, 183, 255) double underline;
+    size: 55px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+}
+p{
+    background-color: #eba45c;
+    line-height: 30px;
+}
+h2{
+    color: red;
+}
+a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: #8A2BE2;
+}
+
+span{
+    text-decoration: dotted underline;
+}

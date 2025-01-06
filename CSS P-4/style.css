@@ -1,0 +1,35 @@
+#myId{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    transition: 1s;
+    margin: 10%;
+    box-shadow: 3px 3px 13px blueviolet;
+    background-image: url("baba.jpg");
+    background-size: cover;
+}
+
+#myId:hover{
+    background-color: pink;
+    border-radius: 50%;
+    box-shadow: 3px 3px 13px red;
+}
+
+#card{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 3%;
+    box-shadow: 5px 5px 15px blue;
+    border: 5px solid black;
+    margin: 10%;
+}
+#des{
+    padding: 0 2px 0 2px;
+}
+#card:hover{
+    box-shadow: 15px 15px 25px purple;
+}
+img{
+    width: 100%;
+}

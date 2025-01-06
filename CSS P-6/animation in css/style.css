@@ -1,0 +1,30 @@
+#box{
+    height: 300px;
+    width: 230px;
+    background-color: aqua;
+    border-radius: 15%;
+    animation: boxSize 3s ease-in 3s infinite alternate;
+}
+
+@keyframes boxSize{
+    0%{
+        width: 400px;
+        border-radius: 30%;
+        background-color: rgb(21, 212, 212);
+    }
+    25%{
+        width: 450px;
+        border-radius: 45%;
+        background-color: rgb(1, 139, 252);
+    }
+    50%{
+        width: 500px;
+        border-radius: 60%;
+        background-color: rgb(0, 89, 255);
+    }
+    100%{
+        width: 550px;
+        border-radius: 75%;
+        background-color: rgb(1, 18, 255);
+    }
+}

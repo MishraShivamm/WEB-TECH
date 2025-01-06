@@ -1,0 +1,22 @@
+#outer{
+    height: 70px;
+    width: 250px;
+    border-radius: 20%;
+    background-color: rgb(182, 45, 245);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#inner{
+    height: 45px;
+    width: 45px;
+    background-color: orange;
+    border: 3px solid orange;
+    font-size: 24px;
+    border-radius: 30%;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}

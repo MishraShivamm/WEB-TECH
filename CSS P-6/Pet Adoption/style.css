@@ -1,0 +1,48 @@
+h3{
+    color: rgb(230, 168, 88);
+}
+
+span{
+    color: rgb(236, 155, 48);
+}
+
+#card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+#desc {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:375px){
+    #desc{
+        /* display: block; */
+        flex-wrap: wrap;
+    }
+}
+
+/* Using flex-wrap: wrap is generally better and more versatile because:
+
+It maintains the Flexbox layout system.
+It adapts more gracefully to varying screen sizes, preserving alignment and spacing between items.
+It allows for more precise control over how elements wrap and align.
+In your code:
+
+css
+@media (max-width: 375px) {
+    #desc {
+        flex-wrap: wrap;
+    }
+}
+This ensures that when the screen width is smaller than 375px, the cards will wrap onto the next line while maintaining their flex layout. If you use display: block, you'd lose the Flexbox behavior entirely.
+
+Recommendation
+Stick with flex-wrap: wrap, as it's more modern, flexible, and appropriate for responsive designs. */
