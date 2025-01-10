@@ -162,3 +162,11 @@ a{
         display: none;
     }
 }
+
+.card{
+    background-color: #232323;
+}
+
+.card-container{
+    display: flex;
+}
