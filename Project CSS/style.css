@@ -24,6 +24,7 @@ body{
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .player{
@@ -165,8 +166,25 @@ a{
 
 .card{
     background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
 
 .card-container{
     display: flex;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
 }
