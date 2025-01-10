@@ -156,3 +156,9 @@ a{
     background-color: black;
     color: white;
 }
+
+@media(max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
