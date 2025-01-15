@@ -27,7 +27,7 @@ body{
     padding: 0 1.5rem 0 1.5rem;
 }
 
-.player{
+.music-player{
     background-color: black;
     bottom: 0;
     width: 100%;
@@ -138,6 +138,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 1;
 }
 
 .sticky-nav-icons {
@@ -169,10 +170,13 @@ a{
     width: 150px;
     border-radius: 0.5rem;
     padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
 }
 
 .cards-container{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-img{
@@ -187,4 +191,38 @@ a{
 .card-info{
     font-size: 0.85rem;
     opacity: 0.8;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.5;
+}
+
+.music-player{
+    display: flex;
+}
+
+.album{
+    width: 25%;
+}
+
+.player{
+    width: 50%;
+}
+ 
+.controls{
+    width: 25%;
+} 
+
+.player-control-icon{
+    height: 1rem;
 }
