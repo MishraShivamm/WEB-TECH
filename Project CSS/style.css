@@ -215,7 +215,8 @@ a{
 
 .album{
     width: 25%;
-    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .player{
@@ -224,7 +225,8 @@ a{
  
 .controls{
     width: 25%;
-    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
 } 
 
 .player-controls{
@@ -269,4 +271,49 @@ a{
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -0.43rem;
+}
+
+.control-icons{
+    height: 1.5rem;
+    padding: 0.5rem;
+}
+
+.volume-bar{
+    display: flex;
+    width: 40%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+.volume-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+} 
+
+.volume-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -0.43rem;
+} 
+
+.album-icon{
+    margin-left: 1rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.main-text{
+    height: 1.5rem;
+}
+
+.sub-text{
+    height: 1rem;
+    opacity: 0.6;
 }
