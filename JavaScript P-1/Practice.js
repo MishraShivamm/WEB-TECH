@@ -31,4 +31,21 @@ This is also not the correct way of writing because we are here declaring a bool
 
 */
 
+/* Practice Q of Strings */
 
+let str = "Tony Stark";
+console.log(str.length);
+
+let firstname = "hulk";
+console.log(firstname[0]);
+
+console.log(firstname[3]);
+
+let name ="apnacollege"+123;
+
+console.log(name);
+
+let emp = "";
+let strsp= "ab c";
+console.log(emp);
+console.log(strsp);
