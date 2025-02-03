@@ -14,4 +14,7 @@ console.log(find);
 
 
 //Method Chaining : use one method after the another . the sequence is from left to  right.
+//For example : strr.indexof("a").trim();
 
+
+//Slice : Returns the part of original string as a new string. str.slice(start,end); or str.slice(start); for example : let str ="abcdefgh"; str.slice(2);
