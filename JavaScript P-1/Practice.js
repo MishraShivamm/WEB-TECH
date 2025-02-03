@@ -45,7 +45,8 @@ let name ="apnacollege"+123;
 
 console.log(name);
 
-
+let emp = "";
+let strsp= "ab c";
 console.log(emp);
 console.error(strsp);
 
