@@ -48,4 +48,5 @@ console.log(name);
 let emp = "";
 let strsp= "ab c";
 console.log(emp);
-console.log(strsp);
+console.error(strsp);
+
