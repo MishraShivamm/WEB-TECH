@@ -22,4 +22,9 @@ console.log(array);
  indexOf :return index of something
  includes : search for a value */
 
+ /* concat and reverse method :
+ concat: merge 2 array.
+ reverse : reverse an array. */
+
  
+
