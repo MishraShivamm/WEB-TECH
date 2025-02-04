@@ -17,3 +17,9 @@ array.shift()";
 array.unshift("july");
 console.log(array);
  */
+
+/* indexOf and includes method :
+ indexOf :return index of something
+ includes : search for a value */
+
+ 
