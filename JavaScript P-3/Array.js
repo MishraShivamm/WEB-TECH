@@ -11,4 +11,9 @@ let array = ["january","july","march","august"];
 array[0]="july";
 array[1]="june";
 console.log(array);
-/* another way of doing it is using shift / unshift method */
+/* another way of doing it is using shift / unshift method
+array.shift()";
+array.shift()";
+array.unshift("july");
+console.log(array);
+ */
