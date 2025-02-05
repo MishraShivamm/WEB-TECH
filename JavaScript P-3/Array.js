@@ -36,10 +36,9 @@ console.log(array);
  /* Sort method:
  it sorts an array.  
  the sort method  changes the values into string and then sort them .*/
- 
+
 
  
-
 
  
 
