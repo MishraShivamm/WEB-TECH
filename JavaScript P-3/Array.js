@@ -32,6 +32,10 @@ console.log(array);
  /* Splice method: removes/ replaces/ add elements in place.
  splice(start,deleteCount,item0...... itemN) 
  it does the changes in the orginal array.*/
+
+ /* Sort method:
+ it sorts an array. */
+ 
  
 
 
