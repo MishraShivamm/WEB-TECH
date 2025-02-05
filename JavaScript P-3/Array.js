@@ -34,8 +34,10 @@ console.log(array);
  it does the changes in the orginal array.*/
 
  /* Sort method:
- it sorts an array. */
+ it sorts an array.  
+ the sort method  changes the values into string and then sort them .*/
  
+
  
 
 
