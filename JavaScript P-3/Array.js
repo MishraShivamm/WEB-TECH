@@ -23,7 +23,7 @@ console.log(array);
  includes : search for a value */
 
  /* concat and reverse method :
- concat: merge 2 array.
+ concat: merge 2 array. for example : 1st array.concat(2nd array);
  reverse : reverse an array. */
 
  
