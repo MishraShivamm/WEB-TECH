@@ -1,6 +1,5 @@
 let array = ['january','july','march','august'];
-array.splice(1,1,"june");
-array.splice(0,1,"july");
+array.splice(0,2,"july","june");
 console.log(array);
 
 
