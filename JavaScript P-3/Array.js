@@ -29,7 +29,10 @@ console.log(array);
  /* Slice method: copies a portion of an array.
  and suppose we use array.slice(-2) then this negative value means that we are printing the values from the last. */
 
- /* Splice method: 
+ /* Splice method: removes/ replaces/ add elements in place.
+ splice(start,deleteCount,item0...... itemN) 
+ it does the changes in the orginal array.*/
+ 
 
 
  
