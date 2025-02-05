@@ -26,5 +26,11 @@ console.log(array);
  concat: merge 2 array. for example : 1st array.concat(2nd array);
  reverse : reverse an array. */
 
+ /* Slice method: copies a portion of an array.
+ and suppose we use array.slice(-2) then this negative value means that we are printing the values from the last. */
+
+ /* Splice method: 
+
+
  
 
