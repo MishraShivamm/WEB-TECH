@@ -22,3 +22,4 @@ if(string[index] == string[index].toLowerCase()){
 } else{
     console.log("character is upper case");
 }
+
