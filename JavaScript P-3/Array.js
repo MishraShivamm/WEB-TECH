@@ -47,6 +47,15 @@ console.log(array);
  now arr1 = arrCopy will be true , because they both are pointing to the same value stored in the memory 
  */
 
+ /* Constant Array :
+ let's also understand this with an example :
+ const array = [1,2,3];
+ we can add or remove any value from this array , but we can't change it's complete value.
+ */
+
+ /*Nested Arrays or Multidimensional Array: Array of arrays.
+ 
+ */
 
 
 
