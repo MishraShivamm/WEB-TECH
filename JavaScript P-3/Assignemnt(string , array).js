@@ -28,4 +28,10 @@ console.log(`original string is ${str}`);
 console.log(`new string is ${str.trim()}`);
 
 let array = ["abc","def",1,2,3,4,5];
-let 
+let item = 3;
+
+if(array.indexOf(item) !=-1){
+    console.log("Element exists");
+} else{
+    console.log("Element doesn't exist");
+}
