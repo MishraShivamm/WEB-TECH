@@ -27,4 +27,5 @@ let str = "            qwertyuio";
 console.log(`original string is ${str}`);
 console.log(`new string is ${str.trim()}`);
 
-
+let array = ["abc","def",1,2,3,4,5];
+let 
