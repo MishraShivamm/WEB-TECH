@@ -39,7 +39,12 @@ console.log(array);
 
 
  /*Array references :
- 
+ let's  understand this with an example : let arr = [1,2,3] , so in this "arr " is the refernce variable
+ and it stoores the memory address of the  variable in the array.
+ Let's understand this with another example :
+ let arr1 = ['a','b','c'];
+ let arrCopy = arr1;
+ now arr1 = arrCopy will be true , because they both are pointing to the same value stored in the memory 
  */
 
 
