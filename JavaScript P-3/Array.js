@@ -54,7 +54,7 @@ console.log(array);
  */
 
  /*Nested Arrays or Multidimensional Array: Array of arrays.
- 
+ let array = [[2,3],[4,5],[6,7]]
  */
 
 
