@@ -14,3 +14,11 @@ if(str ==0){
 } else{
     console.log("string is not empty");
 }
+
+let string = "QWERty";
+let index= 4;
+if(string[index] == string[index].toLowerCase()){
+    console.log("character is lower case");
+} else{
+    console.log("character is upper case");
+}
