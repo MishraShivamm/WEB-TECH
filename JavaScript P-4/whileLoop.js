@@ -10,4 +10,6 @@ while((guess != favMovie) && (guess != "quit")){
     console.log("Your Guess is Wrong . Try Again!");
     guess= prompt("Enter your movie Guess");
 }
-console.log("Right Guess.");
+if(guess == favMovie){
+    console.log("Right Guess.");
+}
