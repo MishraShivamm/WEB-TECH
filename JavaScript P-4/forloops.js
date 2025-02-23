@@ -3,7 +3,7 @@
 */
 //Print Odd numbers
 
-for (let i = 1; i <=10;i=i+2){
+for (let i = 1; i <=15;i=i+2){
     console.log(i)
 }
 
@@ -12,3 +12,10 @@ for (let i = 1; i <=10;i=i+2){
 for (let even = 0; even <=10; even = even+2){
     console.log(even);
 }
+
+//Table of any number using 4 loop in simplest mannner
+
+for(let n = 5 ; n<=50;n=n+5){
+    console.log(n);
+}
+
