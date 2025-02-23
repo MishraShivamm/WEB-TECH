@@ -14,8 +14,9 @@ for (let even = 0; even <=10; even = even+2){
 }
 
 //Table of any number using 4 loop in simplest mannner
-
-for(let n = 5 ; n<=50;n=n+5){
-    console.log(n);
+let n = prompt("Enter the number");
+n= parseInt(n); // it'll convert string to int 
+for(let i = n ; i<=n*10;i=i+n){
+    console.log(i);
 }
 
