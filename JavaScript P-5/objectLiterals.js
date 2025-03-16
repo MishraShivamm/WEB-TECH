@@ -22,13 +22,13 @@ Math.E
 
 
 MATH Methods: 
-Math.abs(n)
+Math.abs(n) [abs means absolute]
 
-Math.pow(a,b)
+Math.pow(a,b) [pow means power]
 
-Math.floor(n)
+Math.floor(n) [ floor, it roundsof the number to the smallest near about number]
 
-Math.ceil(n)
+Math.ceil(n) [ceil neans ceiling , it roundsof the number to the largest near about ]
 
 Math.random()
 
