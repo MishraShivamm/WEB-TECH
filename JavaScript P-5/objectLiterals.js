@@ -12,3 +12,24 @@ JavaScript automatically converts object keys to string.
 Even if we made the number as a key , the number will be converted to string.
 
 */
+
+/*  Math Object
+
+MATH properties :                                                                    
+Math.PI 
+
+Math.E
+
+
+MATH Methods: 
+Math.abs(n)
+
+Math.pow(a,b)
+
+Math.floor(n)
+
+Math.ceil(n)
+
+Math.random()
+
+*/
