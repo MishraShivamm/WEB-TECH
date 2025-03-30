@@ -10,7 +10,5 @@ while(true){
     } else if(guess == user_guess){
         console.log("You Guessed it Right");
         break;
-    }else{
-        console.log("Guess Again");
     }
 }
