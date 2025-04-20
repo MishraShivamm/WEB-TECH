@@ -15,3 +15,5 @@ function mulgreet (func ,n){
 let greet = function(){
     console.log("Hello");
 }
+
+mulgreet(greet, 5);
