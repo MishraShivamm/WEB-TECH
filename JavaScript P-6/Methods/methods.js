@@ -4,9 +4,15 @@
     * All methods are functions, but not all functions are methods.
 */
 
-let calculate={
+const calculate={
     add:function(a,b){
         console.log(a+b);
+    },
+    sub:function(a,b){
+        console.log(a-b);
+    },
+    mul:function(a,b){
+        console.log(a*b);
     }
 }
 calculate.add(7,9);
