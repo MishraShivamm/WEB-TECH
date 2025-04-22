@@ -16,3 +16,13 @@ const calculate={
     }
 }
 calculate.add(7,9);
+
+/* Method (Shorthand)
+
+const obj = {
+    add(a,b) {
+        return a+b;
+    }
+}
+
+*/
