@@ -2,10 +2,11 @@
 */
 
 let odd = function(n){
-    if(n%2 !=0){
-        console.log("N is ODD");
-    } else if(n%2 == 0){
-        console.log("N is even");
-    }
+    // if(n%2 !=0){
+    //     console.log("N is ODD");
+    // } else if(n%2 == 0){
+    //     console.log("N is even");
+    // }
+    console.log(!(n%2==0));
 }
-odd(2);
+odd(3);
