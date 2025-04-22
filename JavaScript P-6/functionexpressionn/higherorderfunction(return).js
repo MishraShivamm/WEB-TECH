@@ -12,10 +12,10 @@
 
 
 // Other way of doing it is 
-let odd = function (n){
-    console.log(!(n%2==0));
-}
-odd(8);
+// let odd = function (n){
+//     console.log(!(n%2==0));
+// }
+// odd(8);
 
 // One with Factory Function
 
@@ -32,3 +32,6 @@ function oddneven(request){
         console.log("Wrong Request");
     }
 }
+
+let check = oddneven("odd");
+check(7);
