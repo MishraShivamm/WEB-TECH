@@ -7,6 +7,7 @@
 const calculate={
     add:function(a,b){
         console.log(a+b);
+        //return(a+b);
     },
     sub:function(a,b){
         console.log(a-b);
