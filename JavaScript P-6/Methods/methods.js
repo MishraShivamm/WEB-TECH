@@ -11,6 +11,7 @@ const calculate={
     },
     sub:function(a,b){
         console.log(a-b);
+        //return(a-b);
     },
     mul:function(a,b){
         console.log(a*b);
