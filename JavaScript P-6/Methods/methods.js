@@ -15,6 +15,7 @@ const calculate={
     },
     mul:function(a,b){
         console.log(a*b);
+        //return(a*b);
     }
 }
 calculate.add(7,9);
