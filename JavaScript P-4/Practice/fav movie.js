@@ -12,8 +12,8 @@
 
 
 
-let arr = ["mango","lichi","apple"];
+// let arr = ["mango","lichi","apple"];
 
-for(let i=0;i<arr.length;i++){
-    console.log(i,arr[i]);
-}
+// for(let i=0;i<arr.length;i++){
+//     console.log(i,arr[i]);
+// }
