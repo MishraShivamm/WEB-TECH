@@ -12,16 +12,30 @@ let num = 3;
 
  //Write a JS program to find the no of digits in a number.Example: if number=287152, count=6
 
- let numm = 2345678;
- let count = 0;
- let copy = numm;
+//  let numm = 2345678;
+//  let count = 0;
+//  let copy = numm;
 
- while (copy >0){
-    count ++;
-    copy = Math.floor(copy/10);
-}
+//  while (copy >0){
+//     count ++;
+//     copy = Math.floor(copy/10);
+// }
 
-console.log(count);
+// console.log(count);
 
 
 //Question 3: 
+
+let no = 2345678;
+let sum = 0;
+let cop = no;
+
+while (cop>0){
+    digit = cop %10;
+    sum += digit;
+    cop= Math.floor(cop/10);
+}
+
+console.log(sum);
+
+//Question 4 : 
