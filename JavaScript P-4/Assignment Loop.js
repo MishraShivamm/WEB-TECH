@@ -13,4 +13,12 @@ let num = 3;
  //Write a JS program to find the no of digits in a number.Example: if number=287152, count=6
 
  let numm = 2345678;
- 
+ let count = 0;
+ let copy = numm;
+
+ while (copy >0){
+    count ++;
+    copy = Math.floor(copy/10);
+}
+
+console.log(count);
