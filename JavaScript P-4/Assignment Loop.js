@@ -11,4 +11,6 @@ let num = 3;
  console.log(arr);
 
  //Write a JS program to find the no of digits in a number.Example: if number=287152, count=6
+
+ let numm = 2345678;
  
