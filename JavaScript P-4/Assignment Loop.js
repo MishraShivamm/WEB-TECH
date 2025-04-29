@@ -24,3 +24,4 @@ let num = 3;
 console.log(count);
 
 
+//Question 3: 
