@@ -40,13 +40,22 @@ console.log(sum);
 
 //Question 4 : 
 
-let fact = prompt("Enter the number you want the factorial of");
-let factorial = 1;
+// let fact = prompt("Enter the number you want the factorial of");
+// let factorial = 1;
 
-for (let i = 1;i<=n;i++){
-    factorial *=i;
-}
-console.log(factorial);
+// for (let i = 1;i<=n;i++){
+//     factorial *=i;
+// }
+// console.log(factorial);
 
 //Question 5:
 
+let array = [1,3,5,8,6,9,10];
+let largest = 0;
+
+for(let i = 0;i<array.length;i++){
+    if(largest <array[i]){
+        largest =array[i];
+    }
+}
+console.log(largest);
