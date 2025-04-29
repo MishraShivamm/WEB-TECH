@@ -40,3 +40,10 @@ console.log(sum);
 
 //Question 4 : 
 
+let fact = prompt("Enter the number you want the factorial of");
+let factorial = 1;
+
+for (let i = 1;i<=n;i++){
+    factorial *=i;
+}
+console.log(factorial);
