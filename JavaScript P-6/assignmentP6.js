@@ -44,3 +44,23 @@ function long(country){
 }
 
 long(country);
+
+
+//Question 4: Write a JS function to count the number of vowels in the string argument.
+
+let checkVowels = "apnacollege";
+
+function countVowels(checkVowels){
+    let count = 0;
+    for(let i =0;i<checkVowels.length;i++){
+        if(checkVowels.charAt(i) == 'a' ||
+        checkVowels.charAt(i) == 'e' ||
+        checkVowels.charAt(i) == 'i' ||
+        checkVowels.charAt(i) == 'o' ||
+        checkVowels.charAt(i) == 'u' ){
+            count++;
+        }
+    }
+    console.log(count);
+}
+countVowels(checkVowels);
