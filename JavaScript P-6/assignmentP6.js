@@ -28,4 +28,5 @@ function getUnique(str){
 
 getUnique(str);
 
-//Queston 3:
+//Queston 3:Write a JS Function that accepts a list of country names as input and returns the longest country name as output.
+
