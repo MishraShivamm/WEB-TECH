@@ -27,3 +27,5 @@ function getUnique(str){
 }
 
 getUnique(str);
+
+//Queston 3:
