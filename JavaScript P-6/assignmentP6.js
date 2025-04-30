@@ -10,3 +10,20 @@ function getElements(arr, num){
     }
 }
 getElements(arr,num);
+
+
+//Question 2: Write a JS function to extract unique characters from a string.
+
+let str = "acdbabcdcbda";
+function getUnique(str){
+    let ans ="";
+    for(let i=0;i<str.length;i++){
+        let char = str[i];
+        if(ans.indexOf(char)== -1){
+            ans += char;
+        }
+    }
+    return ans;
+}
+
+getUnique(str);
