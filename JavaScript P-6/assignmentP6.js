@@ -40,7 +40,7 @@ function long(country){
             ansIdx += i;
         }
     }
-    console.log(ansIdx);
+    console.log(country[ansIdx]);
 }
 
 long(country);
