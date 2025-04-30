@@ -66,4 +66,13 @@ function countVowels(checkVowels){
 countVowels(checkVowels);
 
 
-//Question 5: 
+//Question 5: Write a JS function to generater a random number within a range (start,end)
+
+let start = 100;
+let end = 200;
+
+function generateRandom(start,end){
+    let diff = end - start;
+    console.log(Math.floor(Math.random()*diff)+start);
+}
+generateRandom(start,end);
