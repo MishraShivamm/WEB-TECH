@@ -14,7 +14,7 @@ getElements(arr,num);
 
 //Question 2: Write a JS function to extract unique characters from a string.
 
-let str = "acdbabcdcbda";
+let str = "acdbabcdcbdaef";
 function getUnique(str){
     let ans ="";
     for(let i=0;i<str.length;i++){
