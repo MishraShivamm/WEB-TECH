@@ -30,3 +30,17 @@ getUnique(str);
 
 //Queston 3:Write a JS Function that accepts a list of country names as input and returns the longest country name as output.
 
+let country = ["Aus","Ger","NZ","UK","Dubai","India"];
+function long(country){
+    let ansIdx = 0;
+    for(let i=0;i<country.length;i++){
+        let anslen = country[ansIdx].length;
+        let curlen = country[i].length;
+        if(curlen >anslen){
+            ansIdx += i;
+        }
+    }
+    console.log(ansIdx);
+}
+
+long(country);
