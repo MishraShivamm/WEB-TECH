@@ -64,3 +64,6 @@ function countVowels(checkVowels){
     console.log(count);
 }
 countVowels(checkVowels);
+
+
+//Question 5: 
