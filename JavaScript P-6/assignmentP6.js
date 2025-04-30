@@ -23,7 +23,7 @@ function getUnique(str){
             ans += char;
         }
     }
-    return ans;
+    console.log(ans);
 }
 
 getUnique(str);
