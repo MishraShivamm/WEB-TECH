@@ -12,3 +12,4 @@ console.log(obj.getname());
 
 let abc = 23;
 console.log(abc);
+
