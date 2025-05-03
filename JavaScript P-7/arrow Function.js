@@ -15,3 +15,13 @@ const sum = a =>{};
 
 */
 
+
+/*Implicit return in Arrow Functions
+
+It's only work is to return a value 
+
+syntax for this can be
+
+const sum = (a,b)=>{a*b};
+
+*/
