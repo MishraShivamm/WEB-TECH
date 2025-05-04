@@ -21,3 +21,7 @@ const even = (n) => {
     }   
 }
 console.log(even(5));
+
+
+//What will be the output of this code.
+
