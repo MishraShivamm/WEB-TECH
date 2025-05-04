@@ -25,3 +25,12 @@ console.log(even(5));
 
 //What will be the output of this code.
 
+const object = {
+    message: "Hello World",
+    logMessage (){
+        console.log(this.message);
+    }
+};
+setTimeout(object.logMessage,1000);
+
+// It will print undefined
