@@ -11,3 +11,13 @@ const arrayAverage = (arr)=>{
 console.log(arrayAverage([2,3,4,5,6,7]));
 
 
+//Write an arrow function name Even() that takes a single number as argument and return if the number is even or not.
+
+const even = (n) => {
+    if(n%2 == 0){
+        return `${n} is even`;
+    } else{
+        return `${n} is not even`;
+    }   
+}
+console.log(even(5));
