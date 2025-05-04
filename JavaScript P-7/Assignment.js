@@ -52,4 +52,4 @@ const object = {
 };
 object.method(callback,1,2);
 
-//Output will be 4 and the other 2 arguments (1,2) will be ignored as we've passed only one parameter so it'll 
+//Output will be 4 and the other 2 arguments (1,2) will be ignored as we've passed only one parameter so it'll  only take one argument
