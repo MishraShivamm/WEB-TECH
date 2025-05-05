@@ -31,4 +31,4 @@ const  maximum = (a,b,c)
 */
 
 const  maximum = (a,b,c) => Math.max(a,b,c);
-console.log(maximum(33,42,345));
+console.log(maximum(33,46,35));
