@@ -20,9 +20,6 @@ console.log(doubled());
 
 
 /* Write an arrow function that checks if a string is a palindrome.
-const ispallindrome = str =>str.split(' ').reverse(' ').join(' ');
+const ispallindrome = str =>str.split('').reverse().join('');
 console.log(ispallindrome("reverse"));
 */
-
-const ispallindrome = str =>str === str.split('').reverse().join('');
-console.log(ispallindrome("oyo"));
