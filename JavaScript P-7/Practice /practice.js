@@ -13,6 +13,7 @@
 /*
  Use arrow function with map() to double each number in an array.
 
-const arr = (arr)=>{arr.map(arr*2);}
-console.log(arr[2,4,6,8]);
+const arr = [2,4,6,8];
+const doubled = arr.map(num=> num*2);
+console.log(doubled());
 */
