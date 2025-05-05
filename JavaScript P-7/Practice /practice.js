@@ -23,3 +23,4 @@ console.log(doubled());
 const ispallindrome = str =>str.split('').reverse().join('');
 console.log(ispallindrome("reverse"));
 */
+
