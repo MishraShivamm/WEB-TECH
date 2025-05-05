@@ -26,9 +26,7 @@ console.log(ispallindrome("reverse"));
 
 /* Create an arrow function that returns the maximum of 3 numbers.
 
-const  maximum = (a,b,c)
-
-*/
-
 const  maximum = (a,b,c) => Math.max(a,b,c);
 console.log(maximum(33,46,35));
+*/
+
