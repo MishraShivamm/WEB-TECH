@@ -24,5 +24,5 @@ const ispallindrome = str =>str.split(' ').reverse(' ').join(' ');
 console.log(ispallindrome("reverse"));
 */
 
-const ispallindrome = str =>str === str.split(' ').reverse().join(' ');
-console.log(ispallindrome("boom"));
+const ispallindrome = str =>str === str.split('').reverse().join('');
+console.log(ispallindrome("oyo"));
