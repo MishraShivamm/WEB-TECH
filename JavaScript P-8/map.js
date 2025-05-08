@@ -9,3 +9,5 @@ let arr = [2,4,6,8];
  console.log(double);
 
  // Map provides a new array of the same size of the main array
+
+ 
