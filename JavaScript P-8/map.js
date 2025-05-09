@@ -20,8 +20,8 @@ let arr = [2,4,6,8];
       marks: 99,
    },
 ]
-obj.map((students) =>{
-   console.log((students.marks/2));
+let gpa = obj.map((students) =>{
+   console.log(students.marks/10);
 })
 
  
