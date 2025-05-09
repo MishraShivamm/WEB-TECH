@@ -21,7 +21,9 @@ let arr = [2,4,6,8];
    },
 ]
 let gpa = obj.map((students) =>{
-   console.log(students.marks/10);
+   return students.marks/10;
 })
+
+console.log(gpa);
 
  
