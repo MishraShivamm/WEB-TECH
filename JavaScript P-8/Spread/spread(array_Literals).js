@@ -14,4 +14,5 @@ console.log(arr); // output :[1, 3, 5, 7, 9, 2]
 
 
 let str = "Hello Hello";
-console.log(...str);
+let str1 = "shivam";
+console.log(...str , ...str1);
