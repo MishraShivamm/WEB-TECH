@@ -6,7 +6,8 @@ console.log(check);
 
 //Create a function too find minimum in an array
 
-let check_arr = arr.reduce((min,el)=>{
+function getMin(arr){
+    let check_arr = arr.reduce((min,el)=>{
     if(min>el){
         return el;
     }
@@ -17,3 +18,6 @@ let check_arr = arr.reduce((min,el)=>{
 })
 
 console.log(check_arr);
+}
+
+getMin(arr);
