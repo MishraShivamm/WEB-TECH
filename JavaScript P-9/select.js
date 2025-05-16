@@ -41,9 +41,6 @@ for (let i = 0; i < classCollection.length; i++) {
     console.log(`value is change to ${i+1}`);
 }
 
-classCollection.src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dc.com%2Fblog%2F2024%2F10%2F11%2Fabsolute-interview-discovering-the-fears-of-a-modern-batman&psig=AOvVaw2hEogTFaAk0o8X-bmsLROM&ust=1747467412714000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLi8-MC9p40DFQAAAAAdAAAAABAL";
-'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dc.com%2Fblog%2F2024%2F10%2F11%2Fabsolute-interview-discovering-the-fears-of-a-modern-batman&psig=AOvVaw2hEogTFaAk0o8X-bmsLROM&ust=1747467412714000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLi8-MC9p40DFQAAAAAdAAAAABAL'
-classCollection.src="https://static.dc.com/2024-10/2024_10_09_AbsoluteBatman1_BlogRoll_Mobile_4x3.jpg";
-'https://static.dc.com/2024-10/2024_10_09_AbsoluteBatman1_BlogRoll_Mobile_4x3.jpg';
+classCollection[0].src="https://static.dc.com/2024-10/2024_10_09_AbsoluteBatman1_BlogRoll_Mobile_4x3.jpg";
 
 */
