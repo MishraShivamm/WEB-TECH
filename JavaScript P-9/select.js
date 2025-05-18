@@ -5,7 +5,6 @@ It is actually a metthod of document object.
 By using this method we can select Elements by their id names.
 */
 
-
 /* ById 
 console.dir(document);
 
