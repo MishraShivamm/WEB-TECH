@@ -8,3 +8,4 @@ document.querySelector("#myId"); //Selects the element whose id is myId.
 document.querySelector(".className"); //Selects the element whose id is myId.
 
 document.querySelectorAll('p'); // Selects all the p elements.
+
