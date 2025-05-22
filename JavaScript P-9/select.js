@@ -41,5 +41,4 @@ for (let i = 0; i < classCollection.length; i++) {
 }
 
 classCollection[0].src="https://static.dc.com/2024-10/2024_10_09_AbsoluteBatman1_BlogRoll_Mobile_4x3.jpg";
-
 */
