@@ -39,5 +39,4 @@ Copy to Clipboard
   <!-- beforeend -->
 </p>
 <!-- afterend -->
-
 */
