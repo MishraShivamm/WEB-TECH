@@ -11,5 +11,6 @@ Add the following to the container only using JS and DOM methods.
 
 let p = document.createElement('p');
 p.innerText = "Hey! I'm red";
-document.querySelector("body").append(p);
+let body = document.querySelector("body")
+body.append(p);
 p.ClassList.add('red');
