@@ -6,3 +6,12 @@ Add the following to the container only using JS and DOM methods.
     (a) another <h1> that says "i'm in div".
     (b) a <p> that says "Me too".
 */
+
+//Ans of (i)
+
+let p = document.createElement('p');
+
+p.innerText = "Hey! I'm red";
+
+document.querySelector("body").append(p);
+p.ClassList.add('red');
