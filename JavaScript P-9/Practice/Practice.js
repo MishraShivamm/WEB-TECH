@@ -13,4 +13,13 @@ let p = document.createElement('p');
 p.innerText = "Hey! I'm red";
 let body = document.querySelector("body")
 body.append(p);
-p.ClassList.add('red');
+p.classList.add('red');
+
+
+//Ans of (ii)
+
+let h3 = document.createElement('h3');
+h3.innerText = "Hey! I'm blue h3";
+let body1 = document.querySelector("body")
+body.append(h3);
+h3.classList.add('blue');
