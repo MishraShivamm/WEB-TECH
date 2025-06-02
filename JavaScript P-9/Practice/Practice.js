@@ -30,10 +30,10 @@ let div = document.createElement('div');
 let h1 = document.createElement('h1');
 let para = document.createElement('p');
 h1.innerText = "In div";
-p.innerText = "Me too";
+para.innerText = "Me too";
 
 div.append('h1');
-div.append('p');
+div.append('para');
 div.classList.add('box');
 let bd = document.querySelector('body')
 bd.append(div);
