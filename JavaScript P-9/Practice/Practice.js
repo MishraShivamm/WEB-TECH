@@ -34,8 +34,9 @@ para.innerText = "Me too";
 
 div.append(h1);
 div.append(para);
+
 div.classList.add('box');
-let bd = document.querySelector('body')
+let bd = document.querySelector('body');
 bd.append(div);
 
 //Ans of (v)
