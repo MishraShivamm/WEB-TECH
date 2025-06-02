@@ -34,9 +34,9 @@ p.innerText = "Me too";
 
 div.append('h1');
 div.append('p');
-
-document.querySelector('body').append('div');
 div.classList.add('box');
+document.querySelector('body').append(div);
+
 //Ans of (v)
 let heading = document.createElement("h1");
 heading.textContent = "DOM Practice";
