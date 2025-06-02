@@ -23,3 +23,10 @@ h3.innerText = "Hey! I'm blue h3";
 let body1 = document.querySelector("body")
 body.append(h3);
 h3.classList.add('blue');
+
+//Ans of (v)
+const heading = document.createElement("h1");
+heading.textContent = "DOM Practice";
+heading.style.textDecoration = "underline";
+heading.style.color = "purple";
+document.body.appendChild(heading);
