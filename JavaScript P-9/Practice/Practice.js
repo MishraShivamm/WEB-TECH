@@ -26,7 +26,16 @@ h3.classList.add('blue');
 
 //Ans of (iii)
 
+let div = document.createElement('div');
+let h1 = document.createElement('h1');
+let para = document.createElement('p');
+h1.innerText = "In div";
+p.innerText = "Me too";
 
+div.append('h1');
+div.append('p');
+
+document.querySelector('body').append('div');
 //Ans of (v)
 let heading = document.createElement("h1");
 heading.textContent = "DOM Practice";
