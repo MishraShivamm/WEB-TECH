@@ -24,8 +24,11 @@ let body1 = document.querySelector("body")
 body.append(h3);
 h3.classList.add('blue');
 
+//Ans of (iii)
+
+
 //Ans of (v)
-const heading = document.createElement("h1");
+let heading = document.createElement("h1");
 heading.textContent = "DOM Practice";
 heading.style.textDecoration = "underline";
 heading.style.color = "purple";
