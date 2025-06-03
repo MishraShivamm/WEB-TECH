@@ -31,10 +31,8 @@ let h1 = document.createElement('h1');
 let para = document.createElement('p');
 h1.innerText = "In div";
 para.innerText = "Me too";
-
 div.append(h1);
 div.append(para);
-
 div.classList.add('box');
 let bd = document.querySelector('body');
 bd.append(div);
