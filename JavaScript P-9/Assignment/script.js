@@ -8,4 +8,9 @@ let bdy = document.querySelector('body');
 bdy.appendChild(inp);
 bdy.appendChild(btn);
 
-//Q2. 
+/*Q2.Add following attributes to the element:-
+Change placeholder value of input to “username”
+Change the id of button to “btn” */
+
+inp.placeholder = "Username";
+btn.id = "btn";
