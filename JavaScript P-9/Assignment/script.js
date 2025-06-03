@@ -25,3 +25,11 @@ btnn.style.backgroundColor = "blue";
 
 let h1 = document.createElement('h1');
 h1.innerText = "DOM Practice";
+h1.style.textDecoration = "underline";
+h1.style.color = "purple";
+bdy.appendChild(h1);
+
+// Q5. Create a p tag on the page and set its text to “Apna College Delta Practice” , where Delta is bold.
+let prgh = document.createElement('p');
+prgh.innerHTML = "Apna College <b>Delta</b> Practice";
+bdy.appendChild(prgh);
