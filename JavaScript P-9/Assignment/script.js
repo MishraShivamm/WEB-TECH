@@ -20,3 +20,5 @@ btn.id = "btn";
 let btnn = document.querySelector("button");
 btnn.style.color = "white";
 btnn.style.backgroundColor = "blue";
+
+// Q4. Create an h1 element on the page and set its text to “DOM Practice” underlined.Change its color to purple.
