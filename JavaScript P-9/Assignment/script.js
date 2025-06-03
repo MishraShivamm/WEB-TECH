@@ -14,3 +14,6 @@ Change the id of button to “btn” */
 
 inp.placeholder = "Username";
 btn.id = "btn";
+
+// Q3. Access the btn using the querySelector and button id.Change the button background color to blue and text color to white.
+
