@@ -3,9 +3,11 @@
 // onmouseenter
 
 let btn = document.querySelector("button");
-btn.onclick = function (){
+for (let btns of btn){
+    btn.onclick = function (){
     console.log("Kisne Hath Lgaya");
 }
 btn.onmouseenter = function (){
     console.log("Upr Upr se");
 };
+}
