@@ -2,12 +2,12 @@
 // onclick 
 // onmouseenter
 
-let btn = document.querySelector("button");
-for (let btns of btn){
+let btns = document.querySelectorAll("button");
+for (btn of btns){
     btn.onclick = function (){
     console.log("Kisne Hath Lgaya");
-}
-btn.onmouseenter = function (){
+    }
+    btn.onmouseenter = function (){
     console.log("Upr Upr se");
-};
+    };
 }
