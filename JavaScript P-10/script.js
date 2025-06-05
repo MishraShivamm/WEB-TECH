@@ -11,3 +11,6 @@ for (btn of btns){
     console.log("Upr Upr se");
     };
 }
+
+
+//addEventListener
