@@ -12,5 +12,4 @@ for (btn of btns){
     };
 }
 
-
 //addEventListener
