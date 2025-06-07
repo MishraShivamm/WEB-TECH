@@ -17,10 +17,17 @@
 
 let btns = document.querySelectorAll("button");
 for (btn of btns){
-    btn.addEventListener("dblclick",function (){
-    console.log("Kisne Hath Lgaya");
-    })
+    // btn.addEventListener("dblclick",function (){
+    // console.log("Kisne Hath Lgaya");
+    // })
     btn.onmouseenter = function (){
     console.log("Upr Upr se");
     };
+    btn.addEventListener("mouseenter",() => {
+    btn.style.color = "purple";
+    setTimeout(() => {
+      btn.style.color = "";
+    }, 900);
+  }
+)
 }
