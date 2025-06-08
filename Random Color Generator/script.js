@@ -7,6 +7,4 @@ let button = document.createElement('button');
 button.innerText = "Click to Generate";
 button.classList.add("button");
 body.appendChild(button);
-let div = document.createElement('div');
-div.classList.add("div");
-body.appendChild(div);
+
