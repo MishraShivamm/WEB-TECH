@@ -2,6 +2,6 @@ body{
     display: flex;
     justify-content: center;
 }
-.div{
+div{
     border: 1px solid black;
 }
