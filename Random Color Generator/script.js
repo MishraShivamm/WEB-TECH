@@ -16,6 +16,6 @@ let btn = document.querySelector("button")
     let green = Math.floor(Math.random()*255);
     let blue= Math.floor(Math.random()*255);
 
-    let color = `rgb(${red},${green},${blue})`;
+    let color = `RGB(${red},${green},${blue})`;
     return color;
  }
