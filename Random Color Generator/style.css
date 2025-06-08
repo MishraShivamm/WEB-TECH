@@ -1,7 +1,5 @@
 body{
     display: flex;
     justify-content: center;
-}
-div{
-    border: 1px solid black;
+    align-items: center;
 }
