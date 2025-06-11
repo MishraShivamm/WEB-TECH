@@ -11,4 +11,9 @@ inp.addEventListener("keydown", function(event){
     } else if(event.code == "ArrowRight"){
         console.log("character moves right");
     } 
+    
 });
+
+
+
+
