@@ -16,4 +16,15 @@ user.addEventListener("change", function (){
     console.log("Value Changed");
     console.log("Final value is:",user.value);
 })
+user.addEventListener("input", function (){
+    console.log("is in process");
+    console.log("Final value is:",user.value);
+})
 
+
+let text = document.querySelector("#text");
+let p = document.querySelector("p");
+text.addEventListener("input",function (){
+    console.log("final value is",text.value);
+    p.innerText = text.value;
+})
