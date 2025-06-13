@@ -1,5 +1,10 @@
 let btn = document.querySelector("button");
-let divs = document.querySelectorAll("div"); 
+let divs = document.querySelectorAll("div");
+let inp = document.querySelector("input");
+
+inp.addEventListener("keypress", function (){
+    console.log(inp.value ,"is pressed");
+})
 
 window.addEventListener("scroll", function () {
     divs.forEach(div => {
