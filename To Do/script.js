@@ -1,3 +1,4 @@
 let inp = document.querySelector("input");
-let li = document.querySelector("li");
-li.appendChild(inp);
+let ol = document.querySelector("ol");
+let btn = document.querySelector("button");
+
