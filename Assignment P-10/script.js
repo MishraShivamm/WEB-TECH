@@ -12,7 +12,7 @@ inp.addEventListener("input", function (){
     console.log(inp.value ,"is pressed");
     head.innerText = letter;
 })
-
+//1st
 window.addEventListener("scroll", function () {
     divs.forEach(div => {
         div.style.backgroundColor = "green";
