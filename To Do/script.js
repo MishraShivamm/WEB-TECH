@@ -38,7 +38,6 @@ btn.addEventListener("click", function () {
     dltbtn.innerText = "delete";
     dltbtn.classList.add("delete");
 
-    // 🟢 Attach delete functionality immediately
     dltbtn.addEventListener("click", function () {
         console.log("note deleted");
         this.parentElement.remove();
