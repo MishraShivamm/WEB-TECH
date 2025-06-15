@@ -39,6 +39,7 @@ btn.addEventListener("click", function () {
         this.parentElement.remove();
     });
 
+    
     li.appendChild(dltbtn);
     ol.appendChild(li);
     console.log("clicked");
