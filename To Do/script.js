@@ -34,12 +34,13 @@ btn.addEventListener("click", function () {
     dltbtn.innerText = "delete";
     dltbtn.classList.add("delete");
 
+    
     dltbtn.addEventListener("click", function () {
         console.log("note deleted");
         this.parentElement.remove();
     });
 
-    
+
     li.appendChild(dltbtn);
     ol.appendChild(li);
     console.log("clicked");
