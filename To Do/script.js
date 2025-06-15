@@ -11,8 +11,16 @@ btn.addEventListener("click", function(){
     dltbtn.classList.add  = "delete";
 
     li.appendChild(dltbtn);
-    
+
     ol.appendChild(li);
     console.log("clicked");
     inp.value = " ";
 })
+
+let dltbtns = document.querySelectorAll(".delete");
+
+for (dltbtn of dltbtns){
+    dltbtn.addEventListener("click", function (){
+        console.log("note deleted");
+    })
+}
