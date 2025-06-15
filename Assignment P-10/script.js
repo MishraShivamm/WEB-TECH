@@ -2,10 +2,11 @@ let btn = document.querySelector("button");
 let divs = document.querySelectorAll("div");
 let inp = document.querySelector("input");
 let head = document.querySelector("h2");
-
+// 2nd
 inp.addEventListener("keypress", function (){
     console.log(inp.value ,"is pressed");
 })
+//3rd
 inp.addEventListener("input", function (){
     let letter = inp.value.replace(/[^a-zA-Z]/g," ");
     console.log(inp.value ,"is pressed");
