@@ -1,0 +1,20 @@
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    background-color: antiquewhite;
+}
+
+.red{
+    background-color: aqua;
+}
+
+.purple{
+    background-color: blueviolet;
+}
+
+.green{
+    background-color: brown;
+}
