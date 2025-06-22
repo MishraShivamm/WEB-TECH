@@ -11,7 +11,6 @@ document.addEventListener("keypress", function (){
         console.log("Game started");
         started = true;
 
-
         levelUp();
     }
 })
