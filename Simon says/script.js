@@ -13,7 +13,13 @@ document.addEventListener("keypress", function (){
     }
 })
 
+function btnFlash(btn){
+    
+}
+
 function levelUp(){
     level++;
     h2.innerText = `Level ${level}`;
+
+    btnFlash();
 }
