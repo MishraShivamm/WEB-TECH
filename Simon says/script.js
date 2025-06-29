@@ -25,7 +25,11 @@ function levelUp(){
     level++;
     h2.innerText = `Level ${level}`
 
-    let rnadIdx = Math.floor(Math.random()*3);
-    let rnadColor = btns[rnadIdx]; 
-    btnFlash();
+    let randIdx = Math.floor(Math.random()*3);
+    let randColor = btns[randIdx]; 
+    let randBtn = document.querySelector(`.${randColor}`);
+    console.log(randBtn);
+    console.log(randBtn);
+
+    btnFlash(randBtn);
 }
