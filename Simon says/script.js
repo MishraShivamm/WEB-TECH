@@ -39,3 +39,7 @@ function levelUp(){
 function btnPress(){
     console.log("Button was pressed");
 }
+
+let allBtn = document.querySelectorAll(".btn");
+
+for(btn of allBtn)
