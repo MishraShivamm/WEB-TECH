@@ -37,7 +37,9 @@ function levelUp(){
 
 
 function btnPress(){
+    let btn = this;
     console.log(this,"Button was pressed");
+    btnFlash(btn);
 }
 
 let allBtn = document.querySelectorAll(".btn");
