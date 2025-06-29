@@ -35,7 +35,6 @@ function levelUp(){
     btnFlash(randBtn);
 }
 
-
 function btnPress(){
     let btn = this;
     console.log(this,"Button was pressed");
