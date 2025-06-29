@@ -23,7 +23,9 @@ function btnFlash(btn){
 
 function levelUp(){
     level++;
-    h2.innerText = `Level ${level}`;
+    h2.innerText = `Level ${level}`
 
+    let rnadIdx = Math.floor(Math.random()*3);
+    let rnadColor = btns[rnadIdx]; 
     btnFlash();
 }
