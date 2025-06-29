@@ -34,3 +34,8 @@ function levelUp(){
 
     btnFlash(randBtn);
 }
+
+
+function btnPress(){
+    console.log("Button was pressed");
+}
