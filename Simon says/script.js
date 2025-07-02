@@ -13,7 +13,6 @@ document.addEventListener("keypress", function (){
         levelUp();
     }
 })
-
 function gameFlash(btn){
     btn.classList.add("flash");
     setTimeout(function(){
@@ -48,6 +47,7 @@ function btnPress(){
 }
 
 let allBtn = document.querySelectorAll(".btn");
+
 
 for(btn of allBtn){
     btn.addEventListener("click",btnPress);
