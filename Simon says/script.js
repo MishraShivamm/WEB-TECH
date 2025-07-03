@@ -10,10 +10,10 @@ document.addEventListener("keypress", function (){
     if(started == false){
         console.log("Game started");
         started = true;
-
         levelUp();
     }
 })
+
 
 
 function gameFlash(btn){
@@ -22,6 +22,8 @@ function gameFlash(btn){
         btn.classList.remove("flash");
     },250);
 }
+
+
 
 function userFlash(btn){
     btn.classList.add("userFlash");
