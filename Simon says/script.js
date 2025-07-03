@@ -30,7 +30,6 @@ function userFlash(btn){
     },250);
 }
 
-
 function levelUp(){
     level++;
     h2.innerText = `Level ${level}`
@@ -44,7 +43,6 @@ function levelUp(){
 
     gameFlash(randBtn);
 }
-
 
 function btnPress(){
     let btn = this;
