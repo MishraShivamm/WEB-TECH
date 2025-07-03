@@ -31,7 +31,6 @@ function userFlash(btn){
 }
 
 
-
 function levelUp(){
     level++;
     h2.innerText = `Level ${level}`
