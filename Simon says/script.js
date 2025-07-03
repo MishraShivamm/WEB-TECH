@@ -48,7 +48,6 @@ function btnPress(){
 
 let allBtn = document.querySelectorAll(".btn");
 
-
 for(btn of allBtn){
     btn.addEventListener("click",btnPress);
 }
