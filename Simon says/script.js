@@ -14,16 +14,12 @@ document.addEventListener("keypress", function (){
     }
 })
 
-
-
 function gameFlash(btn){
     btn.classList.add("flash");
     setTimeout(function(){
         btn.classList.remove("flash");
     },250);
 }
-
-
 
 function userFlash(btn){
     btn.classList.add("userFlash");
