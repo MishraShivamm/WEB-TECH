@@ -44,7 +44,7 @@ function levelUp(){
 }
 
 function checkAns(){
-    
+    console.log("curr level:",level);
 }
 
 function btnPress(){
