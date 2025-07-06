@@ -64,7 +64,7 @@ function btnPress(){
     userColor = btn.getAttribute("id");
     userSeq.push(userColor);
 
-    checkAns();
+    checkAns(userSeq.length-1);
 }
 
 let allBtn = document.querySelectorAll(".btn");
