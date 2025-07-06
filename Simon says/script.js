@@ -52,10 +52,10 @@ function btnPress(){
     console.log(this,"Button was pressed");
     userFlash(btn);
 
-
     userColor = btn.getAttribute("id");
     userSeq.push(userColor);
-    console.log(userColor);
+
+    checkAns();
 }
 
 let allBtn = document.querySelectorAll(".btn");
