@@ -44,7 +44,6 @@ function levelUp(){
 }
 
 function checkAns(){
-    console.log("curr level:",level);
     let idx = level - 1;
 
     if(userSeq[idx] === gameSeq[idx]){
