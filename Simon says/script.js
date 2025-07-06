@@ -48,7 +48,9 @@ function checkAns(){
     let idx = level - 1;
 
     if(userSeq[idx] === gameSeq[idx]){
-        
+        console.log("same value");
+    }else{
+        h2.innerText = `Game Over ! Press any key to start`;
     }
 
 }
