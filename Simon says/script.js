@@ -54,6 +54,7 @@ function checkAns(){
         }
     }else{
         h2.innerText = `Game Over ! Press any key to start`;
+        reset();
     }
 
 }
@@ -71,4 +72,8 @@ function btnPress(){
 let allBtn = document.querySelectorAll(".btn");
 for(btn of allBtn){
     btn.addEventListener("click",btnPress);
+}
+
+function reset(){
+    
 }
