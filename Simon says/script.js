@@ -48,6 +48,9 @@ function btnPress(){
     let btn = this;
     console.log(this,"Button was pressed");
     userFlash(btn);
+
+
+    userColor = 
 }
 
 let allBtn = document.querySelectorAll(".btn");
