@@ -43,6 +43,9 @@ function levelUp(){
     gameFlash(randBtn);
 }
 
+function checkAns(){
+    
+}
 
 function btnPress(){
     let btn = this;
