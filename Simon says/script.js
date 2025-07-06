@@ -51,6 +51,8 @@ function btnPress(){
 
 
     userColor = btn.getAttribute("id");
+    userSeq.push(userColor)
+    console.log(userColor);
 }
 
 let allBtn = document.querySelectorAll(".btn");
