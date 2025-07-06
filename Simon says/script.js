@@ -39,6 +39,7 @@ function levelUp(){
     // console.log(randColor);
     // console.log(randBtn);
     gameSeq.push(randColor);
+    console.log(gameSeq);
     gameFlash(randBtn);
 }
 
