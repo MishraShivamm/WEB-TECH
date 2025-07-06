@@ -49,7 +49,6 @@ function checkAns(){
 
 function btnPress(){
     let btn = this;
-    console.log(this,"Button was pressed");
     userFlash(btn);
 
     userColor = btn.getAttribute("id");
