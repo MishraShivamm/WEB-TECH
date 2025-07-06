@@ -50,7 +50,7 @@ function btnPress(){
     userFlash(btn);
 
 
-    userColor = 
+    userColor = btn.getAttribute("id");
 }
 
 let allBtn = document.querySelectorAll(".btn");
