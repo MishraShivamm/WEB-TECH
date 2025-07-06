@@ -49,7 +49,7 @@ function checkAns(){
     if(userSeq[idx] === gameSeq[idx]){
         console.log("same value");
         if(userSeq.length === gameSeq.length){
-            setTimeout(levelUp(),1000);
+            setTimeout(levelUp,1000);
         }
     }else{
         h2.innerText = `Game Over ! Press any key to start`;
