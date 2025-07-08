@@ -134,7 +134,6 @@ function checkAns(idx) { // FIXED: Accept index
         reset();
     }
 }
-
 function btnPress() {
     let btn = this;
     userFlash(btn);
