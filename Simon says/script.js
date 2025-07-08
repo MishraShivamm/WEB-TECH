@@ -130,7 +130,7 @@ function checkAns(idx) { // FIXED: Accept index
             setTimeout(levelUp, 1000);
         }
     } else {
-        h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br>,Press any key to start`;
+        h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br>Press any key to start`;
         reset();
     }
 }
