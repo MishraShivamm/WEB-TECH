@@ -46,7 +46,6 @@ function levelUp(){
 
 function checkAns(){
     let idx = level - 1;
-
     if(userSeq[idx] === gameSeq[idx]){
         console.log("same value");
         if(userSeq.length === gameSeq.length){
@@ -71,7 +70,7 @@ let allBtn = document.querySelectorAll(".btn");
 for(btn of allBtn){
     btn.addEventListener("click",btnPress);
 }
-function reset(){
+function reset() {
     started = false;
     gameSeq = [];
     userSeq = [];
