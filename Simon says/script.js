@@ -58,7 +58,6 @@ function checkAns(){
     }
 
 }
-
 function btnPress(){
     let btn = this;
     userFlash(btn);
@@ -68,12 +67,10 @@ function btnPress(){
 
     checkAns(userSeq.length-1);
 }
-
 let allBtn = document.querySelectorAll(".btn");
 for(btn of allBtn){
     btn.addEventListener("click",btnPress);
 }
-
 function reset(){
     started = false;
     gameSeq = [];
