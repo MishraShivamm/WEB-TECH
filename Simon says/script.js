@@ -28,6 +28,7 @@
 //     },250);
 // }
 
+
 // function levelUp(){
 //     userSeq = [];
 //     level++;
@@ -122,6 +123,9 @@ function levelUp() {
     console.log(gameSeq);
     gameFlash(randBtn);
 }
+
+
+
 
 function checkAns(idx) { // FIXED: Accept index
     if (userSeq[idx] === gameSeq[idx]) {
