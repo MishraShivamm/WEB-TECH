@@ -138,6 +138,8 @@ function checkAns(idx) { // FIXED: Accept index
         reset();
     }
 }
+
+
 function btnPress() {
     let btn = this;
     userFlash(btn);
@@ -148,11 +150,15 @@ function btnPress() {
     checkAns(userSeq.length - 1); // FIXED: pass index
 }
 
+
+
 let allBtn = document.querySelectorAll(".btn");
 
 for (let btn of allBtn) { // FIXED: added let
     btn.addEventListener("click", btnPress);
 }
+
+
 
 function reset() {
     started = false;
