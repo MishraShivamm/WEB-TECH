@@ -140,6 +140,12 @@ function checkAns(idx) { // FIXED: Accept index
 }
 
 
+
+
+
+
+
+
 function btnPress() {
     let btn = this;
     userFlash(btn);
@@ -160,9 +166,21 @@ for (let btn of allBtn) { // FIXED: added let
 
 
 
+
+
 function reset() {
     started = false;
     gameSeq = [];
     userSeq = [];
     level = 0;
 }
+
+
+
+
+
+
+
+
+
+
