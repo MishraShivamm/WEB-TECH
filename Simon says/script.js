@@ -172,8 +172,7 @@ function reset() {
     started = false;
     gameSeq = [];
     userSeq = [];
-    level = 0;
-}
+    level = 0;} 
 
 
 
@@ -184,3 +183,15 @@ function reset() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    
