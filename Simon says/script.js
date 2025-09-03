@@ -123,7 +123,6 @@ function levelUp() {
     console.log(gameSeq);
     gameFlash(randBtn);
 }
-
 function checkAns(idx) { // FIXED: Accept index
     if (userSeq[idx] === gameSeq[idx]) {
         console.log("Correct");
@@ -135,6 +134,8 @@ function checkAns(idx) { // FIXED: Accept index
         reset();
     }
 }
+
+
 
 
 
